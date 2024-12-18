@@ -24,7 +24,7 @@ attack_logs_collection = db['user_attack_logs']
 TELEGRAM_BOT_TOKEN = '7831102909:AAG3y0-k3qzoIX4SJCGtbHkDiDNJXuT3zdk'
 ADMIN_USER_ID = 6135948216 
 ADMIN_USER_ID = 6192971829 
-COOLDOWN_PERIOD = timedelta(second=0) 
+COOLDOWN_PERIOD = timedelta(minute=05) 
 user_last_attack_time = {} 
 user_attack_history = {}
 cooldown_dict = {}
