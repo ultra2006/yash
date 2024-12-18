@@ -5,14 +5,14 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 from flashh import TOKEN  # Import the TOKEN variable
 
-ADMIN_ID = 1201129048  # Your admin ID
+ADMIN_ID = 6135948216  # Your admin ID
 EXPIRY_DATE = datetime(2024, 12, 31)  # Set the expiry date (Year, Month, Day)
 
 # Set up logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Path to your binary
-BINARY_PATH = "./ULTRA"
+BINARY_PATH = "./flash"
 
 # Global variables
 process = None
