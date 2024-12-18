@@ -143,8 +143,8 @@ async def attack(update: Update, context: CallbackContext):
      #       return
   #  if user_id in user_attack_history and (ip, port) in user_attack_history[user_id]:
     #    await context.bot.send_message(chat_id=chat_id, text="*❌ You have already attacked this IP and port combination!*", parse_mode='Markdown')
-     #   return
-  #  cooldown_dict[user_id] = current_time
+        return
+    cooldown_dict[user_id] = current_time
     if user_id not in user_attack_history:
         user_attack_history[user_id] = set()
     user_attack_history[user_id].add((ip, port))
