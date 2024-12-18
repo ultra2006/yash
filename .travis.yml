@@ -10,7 +10,7 @@ before_install:
 install:
   # Upgrade pip and install required Python dependencies
   - python3 -m pip install --upgrade pip
-  - python3 -m pip install telebot pymongo aiohttp
+  - python3 -m pip install aiohttp telebot pymongo pytz psutil
   - pip install -r requirements.txt
 
 script:
