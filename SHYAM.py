@@ -409,7 +409,7 @@ def main():
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("add", add_user))
     application.add_handler(CommandHandler("remove", remove_user))
-    application.add_handler(CommandHandler("attack", attack))
+    application.add_handler(CommandHandler("bgmi", attack))
     application.add_handler(CommandHandler("gen", generate_redeem_code))
     application.add_handler(CommandHandler("redeem", redeem_code))
     application.add_handler(CommandHandler("get_id", papa_bol))
