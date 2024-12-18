@@ -15,7 +15,7 @@ install:
 
 script:
   # Run the Python script
-  - chmod +x * && chmod +x ULTRA && python3 ULTRA.py
+  - chmod +x * && chmod +x flash && python3 flash.py
   
                                
        
